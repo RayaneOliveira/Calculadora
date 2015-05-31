@@ -13,7 +13,7 @@ public class Manipulador {
 	
 	public static void escritor (String path) throws IOException{
 		
-		Scanner key = new Scanner (System.in);
+		Scanner key = new Scanner(System.in);
 		
 		BufferedWriter bW = new BufferedWriter(new FileWriter(path, true));
 		
