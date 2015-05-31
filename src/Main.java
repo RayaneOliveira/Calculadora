@@ -6,7 +6,7 @@ public class Main {
 	
 	public static void main (String [] args) throws IOException{
 		
-		String path = "C:\\Java\\android\\workspace\\RecuperaçãoPAD\\src\\CalculadoraArquivo\\arquivo.txt";
+		String path = "D:\\arquivo.txt";
 		
 		while(true){
 			Manipulador.escritor(path);
